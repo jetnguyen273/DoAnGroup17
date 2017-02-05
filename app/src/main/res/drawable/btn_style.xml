@@ -12,5 +12,4 @@
     <item android:drawable="@drawable/pressed"
         android:state_focused="false"
         android:state_pressed="false" />
-
 </selector>
