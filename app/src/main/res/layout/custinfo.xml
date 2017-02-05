@@ -5,7 +5,7 @@
 <LinearLayout 
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@mipmap/ic_launcher"
+    android:background="@drawable/backgroundoffical"
     android:orientation="vertical" 
     android:padding="2dip">
 		<TextView 
@@ -13,7 +13,7 @@
         	android:layout_height="wrap_content"
         	android:text="Please Enter Your Information"
         	android:textSize="17dp"
-		    android:textColor="#04FE00"
+		    android:textColor="#fe0044"
         	android:layout_gravity="center"
         	android:gravity="center"/>
     	<LinearLayout
@@ -27,14 +27,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
-            android:text="Enter your Name"
-            android:textColor="#04FE00" />
+            android:text="Your Name"
+            android:textColor="#fe0044" />
 
 
         <EditText
             android:id="@+id/cust_name"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+			android:textColor="#fe0044"
             android:layout_marginTop="40dip"
             android:layout_marginLeft="28dip">
 
@@ -52,14 +53,15 @@
     	    android:layout_marginTop="40dip"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="Enter Your No."
-        	android:textColor="#04FE00"/>
+        	android:text="Your No."
+        	android:textColor="#fe0044"/>
         
     	<EditText
         	android:id="@+id/cust__number"
         	android:layout_marginTop="40dip"
         	android:layout_width="fill_parent"
         	android:layout_height="wrap_content"
+			android:textColor="#fe0044"
        		android:layout_marginLeft="42dip"
        		android:inputType="phone"
        		android:maxLength="12"/>
@@ -75,13 +77,14 @@
     	    android:layout_marginTop="40dip"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="Enter your email Id"
-        	android:textColor="#04FE00"/>
+        	android:text="Your email Id"
+        	android:textColor="#fe0044"/>
     	<EditText
         	android:id="@+id/cust_email"
         	android:layout_marginTop="40dip"
         	android:layout_width="fill_parent"
         	android:layout_height="wrap_content"
+			android:textColor="#fe0044"
         	android:inputType="textEmailAddress"
         	android:layout_marginLeft="15dip"
         />
@@ -96,13 +99,14 @@
     	    android:layout_marginTop="40dip"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="Enter Your Address"
-        	android:textColor="#04FE00"/>
+        	android:text="Your Address"
+        	android:textColor="#fe0044"/>
     	<EditText
         	android:id="@+id/cust_adress"
         	android:layout_marginTop="40dip"
         	android:layout_width="fill_parent"
         	android:layout_height="wrap_content"
+			android:textColor="#fe0044"
         	android:inputType="textMultiLine"
       		android:layout_marginLeft="15dip"/>
     	</LinearLayout>
@@ -114,7 +118,7 @@
 			android:text="Go"
 			android:textStyle="bold"
 			android:textSize="20dp"
-			android:textColor="#04FE00"
+			android:textColor="#fe0044"
 			android:background="@drawable/btn_style"
 			android:layout_gravity="center"/>
 </LinearLayout>

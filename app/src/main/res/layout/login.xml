@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@mipmap/ic_launcher">
+    android:orientation="vertical"
+	android:background="@drawable/backgroundoffical">
 	<LinearLayout 
     	android:layout_width="fill_parent"
     	android:layout_height="wrap_content"
